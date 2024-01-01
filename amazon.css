@@ -1,0 +1,292 @@
+#navigation_bar{
+    display: flex;
+    height:100px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.amazonlogo{
+    height: 90px;
+    width: 140px;
+    background-image:url(amazonlogo2.webp) ;
+background-size:cover;
+padding-left: 6px;
+padding-right: 8px;
+margin:1px;
+}
+
+.location{
+     color:#FFFFFF;
+     padding-left: 9px;
+     padding-right: 9px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     margin-right: 2px;
+}
+#loc{
+      margin-left: 15px;
+      font-size: 0.85rem;
+      
+}
+
+#loc_logo{
+    height: 15px;
+    width: 18px;
+    background-image: url(location-dot-solid.svg);
+    background-size: cover;
+    display:inline;
+    color:white;  
+}
+
+#india{
+    font-size:1rem ;
+    display:inline;
+    color: #FFFFFF;
+}
+select{
+   color: black;
+    height: 39px;
+    width: 40px;
+   border-top-left-radius: 9px;
+   border-bottom-left-radius: 9px;
+ /* align-self: center; */
+}
+input{
+    height: 34px;
+    width: 630px;
+}
+#searchbar{
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-color: orange;
+    align-self: center;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+
+}
+#flag{
+    height: 40px;
+    width: 37px;
+    background-image: url(england-flag-printing-service.jpg);
+    background-size: cover;
+    align-self: bottom;
+   display: inline-block
+
+}
+
+#en{
+    display:inline;
+    color:white;
+    background-color: transparent;
+ 
+ border: 0px;
+ 
+    
+}
+#language{
+    align-self: center;
+    
+}
+#signin{
+    color:white;
+}
+#account{
+    color:white;
+   
+}
+.accoun{
+    align-self: center;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 10px;
+    margin-left: 2px;
+}
+
+#andorders{
+color:white;
+text-decoration: none;
+font-size: 21px;
+}
+.returnandorders{
+    align-self: center;
+    color:white;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 10px;
+    margin-left: 2px;
+}
+.al{
+    color: white;
+    height: 19px;
+    width: 16px;
+    display: flex;
+    align-self: center;
+    padding-right: 9px;
+    padding-bottom: 10px;
+    margin-left: 3px;
+    
+}
+
+#navigation_bar:hover{
+    border:#cccccc;
+}
+.border{
+    color:3px solid black;
+  
+}
+.border:hover{
+border:2px solid white;
+}
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 4px;
+    padding-left: 3px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.nav_tool{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-bottom: 10px;
+    margin-left: 2px;
+}
+.all{
+    color: white;
+    background-color: #3f4242;
+    width: 40.413px;
+    height: 23px;
+    padding-top: 8px;
+    padding-right: 9px;
+    padding-left: 9px;
+    text-decoration: none;
+}
+.second_row{
+    background-color: #3f4242;
+    color: white;
+    display: flex;
+}
+.info{
+    color: white;
+    text-decoration: none;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-block-start: 5pz;
+    margin-bottom: 6px;
+
+}
+.main_photo{
+height: 1600px;
+background-image:url(shop_holiday_gift_guide.jpg) ;
+background-size: cover;
+}
+#holiday_gift{
+    background-image: url(gift.jpg);
+    background-size: cover;
+    height:450px;
+    width:650px;
+    position: relative;
+top: 100px;
+bottom: 100px;
+
+}
+#amazon_link{
+    text-decoration: none;
+}
+.content{
+    position: relative;
+    top: 200px;
+    background-color: white;
+    height: 40px;
+font-size: 18px;
+}
+.photo1{
+    display: flex;
+    position: relative;
+    top: 400px;
+}
+.box{
+    height: 385px;
+    width: 350px;
+    background-color: white;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:250px;
+    left: 2px;
+}
+.image1{
+    height: 303px;
+    width: 303px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.shop_link{
+    text-decoration: none;
+    font-size: 13px;
+}
+.row2{
+    top: 300px;
+}
+#image2{
+    font-size:28px ;
+}
+#back{
+    height: 19px;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(48, 46, 46);
+    color: #FFFFFF;
+text-align: center;
+}
+.text1{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-top: 7px;
+}
+footer{background-color:#333333;
+    height: 500px;
+}
+.content1{
+height: 318.4px;
+width: 220px;
+padding-right: 10px;
+padding-left: 40px;
+
+}
+
+#text{
+font-size: 25px;
+padding-bottom: 7px;
+}
+.full{
+    display: flex;
+    justify-content: space-evenly;
+}
+#last{ 
+   position: relative;
+   width: 200px;
+   height: 120px;
+   left: 600px;
+ 
+   
+}
+
+
